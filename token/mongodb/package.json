@@ -1,0 +1,20 @@
+{
+  "name": "cumul.io-plugin-mongo",
+  "version": "0.1.0",
+  "description": "Example Cumul.io plugin: visualize MongoDB data.",
+  "repository": "https://github.com/cumulio/cumul.io-plugin",
+  "license": "MIT",
+  "dependencies": {
+    "async": "2.5.0",
+    "body-parser": "1.17.2",
+    "compression": "1.6.2",
+    "dotenv": "4.0.0",
+    "express": "4.15.3",
+    "flat": "4.0.0",
+    "mongodb": "2.2.31",
+    "mongodb-schema": "7.0.0"
+  },
+  "engines": {
+    "node": "6.11.0"
+  }
+}

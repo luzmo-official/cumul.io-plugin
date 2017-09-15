@@ -1,0 +1,15 @@
+{
+  "name": "cumul.io-plugin-citybikes",
+  "version": "0.1.0",
+  "description": "Example Cumul.io plugin: visualize real-time bike availability in bike sharing systems across the globe.",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "compression": "1.6.2",
+    "express": "4.15.3",
+    "dotenv": "4.0.0",
+    "request": "2.81.0"
+  },
+  "engines": {
+    "node": "6.11.0"
+  }
+}
