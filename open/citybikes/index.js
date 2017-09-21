@@ -10,6 +10,7 @@ app.get('/datasets', function(req, res) {
 
   request.get({
     uri: 'https://api.citybik.es/v2/networks',
+    gzip: true,
     json: true
   }, function(error, networks) {
     if (error)
@@ -40,6 +41,7 @@ app.post('/query', function(req, res) {
 
   request.get({
     uri: `https://api.citybik.es/v2/networks/${req.body.id}`,
+    gzip: true,
     json: true
   }, function(error, stations) {
     if (error)
