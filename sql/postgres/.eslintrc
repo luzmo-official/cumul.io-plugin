@@ -1,0 +1,9 @@
+{
+  "extends": ["standard", "idiomatic"],
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "rules": {
+    "one-var": "off"
+  }
+}
