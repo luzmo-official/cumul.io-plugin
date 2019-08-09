@@ -2,8 +2,8 @@
 const dbWrapper = require( './plugin/database-wrapper' )
 const queryGenerator = require( './plugin/query-generator' )
 const resultsGenerator = require( './plugin/results-generator' )
-const schemaCache = require( './plugin/schema-cache' )
 
+const schemaCache = require( './util/schema-cache' )
 const validation = require( './util/validation' )
 const requestParser = require( './util/request-parser' )
 
