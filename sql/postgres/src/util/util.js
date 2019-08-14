@@ -3,7 +3,7 @@ class Util {
   toLowerCaseMap( map ) {
     const lowerCaseMap = {}
     Object.keys( map ).forEach(( key ) => {
-      if ( typeof ( map.key ) !== 'undefined' ) {
+      if ( typeof ( map[key] ) !== 'undefined' ) {
         lowerCaseMap[ key.toLowerCase() ] = map[ key ]
       }
     })
