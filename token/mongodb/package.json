@@ -11,7 +11,7 @@
     "dotenv": "4.0.0",
     "express": "4.15.3",
     "flat": "4.0.0",
-    "mongodb": "2.2.31",
+    "mongodb": "3.6.1",
     "mongodb-schema": "7.0.0"
   },
   "engines": {
