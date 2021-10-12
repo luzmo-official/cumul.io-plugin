@@ -22,6 +22,6 @@ app.options( '*', ( req, res ) => {
   res.status( 204 )
 })
 
-app.listen( PORT, () => console.log( `[OK] Cumul.io plugin 'Postgres' listening on port ${PORT}` ))
+app.listen( PORT, () => console.log( `[OK] Cumul.io plugin 'SQLServer' listening on port ${PORT}` ))
 
 module.exports = app
