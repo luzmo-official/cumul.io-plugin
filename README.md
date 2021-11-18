@@ -4,6 +4,7 @@ Cumul.io Plugin reference implementations for:
 
 * Citybik.es - bike sharing visualization
 * MongoDB - NoSQL data store connection
+* Elasticsearch - Schema-free search engine
 * Asana - web service integration via OAuth2
 * sql/postgres - Although we have connectors to many SQL databases, in case we don't have yours or there are others reasons to build it yourself, this plugin can serve as an example. 
 
