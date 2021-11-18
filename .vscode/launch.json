@@ -7,14 +7,14 @@
         {
             "type": "pwa-node",
             "request": "launch",
-            "name": "Launch ES Plugin",
+            "name": "Launch ES plugin",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "env": {
                 "LOCAL": "TRUE"
             },
-            "program": "${workspaceFolder}/index.js"
+            "program": "${workspaceFolder}/token/elasticsearch/index.js"
         }
     ]
 }
