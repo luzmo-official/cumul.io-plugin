@@ -1,0 +1,27 @@
+{
+  "name": "cumulio-plugins",
+  "version": "0.1.0",
+  "description": "Cumul.io Elasticsearch plugin",
+  "author": "Cumul.io Team <team@cumul.io>",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "compression": "1.7.4",
+    "elasticsearch": "16.7.2",
+    "express": "4.17.1",
+    "got": "11.8.3",
+    "lru-cache": "6.0.0",
+    "moment": "2.29.1",
+    "url": "0.11.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.4.0",
+    "@typescript-eslint/parser": "5.4.0",
+    "eslint": "8.2.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-config-standard-with-typescript": "21.0.1",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "5.1.1",
+    "eslint-plugin-standard": "5.0.0"
+  }
+}
