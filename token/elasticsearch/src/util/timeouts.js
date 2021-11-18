@@ -3,6 +3,6 @@ const timeouts = {
   datasets: 10000,
   query: 120000,
   queryPage: 60000
-};
+}
 
-module.exports = timeouts;
+module.exports = timeouts
