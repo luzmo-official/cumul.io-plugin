@@ -1,0 +1,4 @@
+*.txt
+*.zip
+node_modules/*
+keys/*.pem
