@@ -8,7 +8,7 @@
     "compression": "1.7.4",
     "elasticsearch": "16.7.2",
     "express": "4.17.1",
-    "got": "11.8.3",
+    "got": "11.8.5",
     "lru-cache": "6.0.0",
     "moment": "2.29.1",
     "url": "0.11.0"
