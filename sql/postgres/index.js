@@ -18,6 +18,6 @@ const configureEndpoint = ( method, endpoint, endpointFun ) => {
 }
 
 configureEndpoint( 'post', '/authorize', controller.authorize )
-configureEndpoint( 'get', '/datasets', controller.datasets )
+configureEndpoint( 'post', '/datasets', controller.datasets )
 configureEndpoint( 'get', '/status', controller.status )
 configureEndpoint( 'post', '/query', controller.query )
