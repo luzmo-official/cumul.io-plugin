@@ -92,7 +92,7 @@ class QueryGenerator {
         // There is a null value in the filter values
         isNullCondition = ` OR ${originalCaseColName} is null`
       }
-      return `${originalCaseColName} ${filter.expression} (${values.join( ',' )}) ${isNullCondition}`
+      return `(${originalCaseColName} ${filter.expression} (${values.join( ',' )}) ${isNullCondition})`
     }
     const values = this.parseExpressionValues( filter.value, columnInfo )
     if ( !util.isEmpty( values )) {
