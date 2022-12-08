@@ -14,9 +14,9 @@
   "author": "Brecht De Rooms",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "1.19.0",
+    "body-parser": "1.20.1",
     "compression": "1.7.4",
-    "express": "4.17.1",
+    "express": "4.18.2",
     "lru-cache": "^6.0.0",
     "moment": "2.24.0",
     "mssql": "^7.2.1",
