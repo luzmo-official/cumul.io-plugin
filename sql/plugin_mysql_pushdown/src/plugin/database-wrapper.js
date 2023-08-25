@@ -132,7 +132,7 @@ function schema(conn, callback) {
         }
         schemaResult[schemaResult.length - 1].columns.push({
           name: { en: columnName },
-          id: columnName.toLowerCase(),
+          id: columnName,
           type: typeMapping.toCumulioType(row.data_type),
         });
       }
