@@ -123,7 +123,7 @@ function schema(conn, callback) {
             tableSchema + '.' + tableName
         ) {
           schemaResult.push({
-            id: (tableSchema + '.' + tableName).toLowerCase(),
+            id: (tableSchema + '.' + tableName),
             name: { en: tableSchema + '.' + tableName },
             description: { en: tableSchema + '.' + tableName },
             columns: [],

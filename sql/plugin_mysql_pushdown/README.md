@@ -3,6 +3,8 @@
 This is a template pushdown plugin for MySQL using Node.js with key & token (username & password MySQL DB). This template can be used as a starting point for the development of a Cumul.io plugin.
 It includes a webserver to host the plugin.
 
+Oct 2023 **_WARNING_** This plugin has been updated to allow upper and lower case column names. This is a breaking change and will cause existing Cumul.io datasets to no longer query correctly.
+
 The layout of the src folder tries to highlight the four different concerns:
 
 - **src**
