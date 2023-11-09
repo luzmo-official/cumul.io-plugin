@@ -38,11 +38,7 @@ Install the libraries
 npm install
 ```
 
-Once you have added your plugin to Cumul.io, export the secret as an environment variable.
-
-```shell
-CUMULIO_SECRET=plugin_secret
-```
+Once you have added your plugin to Cumul.io, Fill in your CUMULIO_SECRET in .env file.
 
 Run the plugin
 

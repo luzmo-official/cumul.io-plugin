@@ -91,13 +91,13 @@ const getClient = async (details, timeout) => {
     password: details.token,
     database: details.database,
     server: details.host,
-    port: details.port,
     pool: {
       max: 3,
       min: 1,
       idleTimeoutMillis: 120000,
     },
     options: {
+      port: Number(details.port),
       encrypt: true,
       trustServerCertificate: true,
       enableArithAbort: true,
