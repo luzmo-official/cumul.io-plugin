@@ -39,7 +39,7 @@ class Generator {
       const columns = columNames.map( columnName => {
         const column = columnsHash[ columnName ]
         return {
-          id: column.name.toLowerCase(),
+          id: column.name,
           name: { en: column.name },
           type: column.type
         }
